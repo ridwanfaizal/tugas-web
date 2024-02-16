@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang saya</title>
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 120px;
+    font-size: 45px;
+    color: #fff;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li:after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 05s;
+}
+.navbar ul li:after:hover::after {
+    width: 100%;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    Nama  : Ridwan Faizal
+    Kelas : IF-12
+    Nim   : 10123911 
+-->
+    
+    <div class="banner">
+        <div class="navbar">
+        <label class="logo">tentang</label>
+        <ul>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./tentang.html">tentang</a></li>
+            <li><a href="./layanan.html">layanan</a></li>
+           
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        </div>
+
+<header>
+    <h1>Selamat Datang di tentang Saya</h1>
+</header>
+
+<section>
+    <h1>Ridwan faizal</h1>
+      <p>Alamat               : jln terusan girimekar no 58 RT 01/RW 08</p>
+      <p>Tempat,tanggal lahir : 16 desember 2004,Bandung</p>
+      <p>Tinggi badan         : 178cm</p>
+      <p>Berat badan          : 60kg </p>
+      <p>Jenis kelamin        : Laki-Laki</p>
+      <p>Status               : Belum menikah</p>
+      <p>Gmail                : kipalkempong86@gmail.com</p>
+      <p>Telepon              : 081313966373</p>
+</section>
+<section>
+    <h2>Hoby</h2>
+      <ul>
+        <li>Futsal</li>
+        <li>Hyking</li>
+        <li>Nonton film horor</li>
+</section>
+
+<footer>
+    <p>Hak Cipta &copy; 2024 - Ridwan faizal</p>
+</footer>
+
+</body>
+
+</html>

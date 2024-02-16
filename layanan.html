@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kami</title>
+    <style>
+         * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 120px;
+    font-size: 45px;
+    color: #fff;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li:after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 05s;
+}
+.navbar ul li:after:hover::after {
+    width: 100%;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .service h2 {
+            color: #333;
+        }
+        .service p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    Nama  : Ridwan Faizal
+    Kelas : IF-12
+    Nim   : 10123911 
+-->
+    
+    <div class="banner">
+        <div class="navbar">
+        <label class="logo">layanan</label>
+        <ul>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./tentang.html">tentang</a></li>
+            <li><a href="#">layanan</a></li>
+            
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        </div>
+
+<header>
+    <h1>Layanan Kami</h1>
+</header>
+
+<section>
+    <div class="service">
+        <h2>Layanan 1</h2>
+        <p>saya akan memberi tahu anda jika ada yang kesulitan</p>
+    </div>
+    
+    <div class="service">
+        <h2>Layanan 2</h2>
+        <p>saya akan bantu sesuai dengan kemampuan saya</p>
+    </div>
+    
+    <div class="service">
+        <h2>Layanan 3</h2>
+        <p>saya akan melayani anda sampai anda puas dengan pelayanan kami</p>
+    </div>
+</section>
+
+<footer>
+    <p>Hak Cipta &copy; 2024 - Nama Anda</p>
+</footer>
+
+</body>
+</html>
